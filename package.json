@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "build": "webpack --mode development"
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -16,8 +16,7 @@
     "@babel/preset-env": "^7.25.9",
     "html-webpack-plugin": "^5.6.3",
     "jest": "^29.7.0",
-    "webpack": "^5.95.0",
-    "webpack-cli": "^5.1.4"
+    "jslint": "^0.12.1"
   },
   "dependencies": {
     "core-js": "^3.38.1"
